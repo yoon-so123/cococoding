@@ -1,0 +1,137 @@
+.page-one-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sign{
+    width: 82%;
+    height: 100%; 
+   
+}
+.freedeliver{
+    width: 83%;
+    height: 100%; 
+    margin-top: 0.9em;
+}
+.slider{
+    width: 80%;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.slides{
+    display: flex;
+    width: 600%;
+    animation: slidee 10s ease infinite;
+    height: 100%;
+}
+@keyframes slidee {
+    0% {
+        transform: translateX(0);
+      }
+      16.6% {
+        transform: translateX(-17%);
+      }
+      33.3% {
+        transform: translateX(-33.5%);
+      }
+      50% {
+        transform: translateX(-49.5%);
+      }
+      66.6% {
+        transform: translateX(-67%);
+      }
+      83.3% {
+        transform: translateX(-84%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+}
+.slide{
+    width: calc(100%/6);
+    flex-shrink: 0;
+}
+.slide img{
+    width: 100%;
+    display: block;
+}
+.best-pick{
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+.span-best-pick{
+    color: red;
+    font-style: italic;
+}
+
+.page-one-slide-centense{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.h-plus-two{
+    margin-top: -1em;
+    font-size: 1em;
+}
+.h-plus-three{
+    margin-top: -0.5em;
+    color: gray;
+    margin-bottom: 10em;
+    font-size: 0.7em;
+}
+.h-plus-span{
+    color: red;
+}
+
+@media (min-width: 768px) {
+
+ .img-article{
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    margin: 5em auto;
+    align-items: center;
+}
+.sign{
+    width: 50%;
+    height: 50%; 
+}
+.freedeliver{
+    width: 50%;
+    height: 50%; 
+    margin-top: 0.9em;
+}
+.slider{
+    width: 40%;  
+    height: 75vh;
+    object-fit: cover;
+} 
+.page-one-slide-centense{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1em;
+}
+.h-plus-pc{
+    margin-top: 2em;
+    font-size: 2.5em;
+}
+.h-plus-three{
+    font-size: 1em;
+}
+
+    }
+
+ 
