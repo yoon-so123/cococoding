@@ -1,71 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>내츄럴플러스</title>
     <link rel="stylesheet" href="base.css" />
-</head>
-<body>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
     <header class="toptitle">
-        <img class="logo" src="images/logo.png" alt="상단로고" />
-        <div class="hamburger">
-            <div class="open-btn">&#9776;</div>
-            <nav class="menu">
-                <div class="close-btn"> &times;</div>
-                <ul class="nav-item">
-                    <li><a class="selected" href="index.html">전체</a></li>
-                    <li><a class="selected" href="list.html">BEST</a></li>
-                    <!-- <li><a class="selected" href="detailpage.html">상품
+      <img class="logo" src="images/logo.png" alt="상단로고" />
+      <div class="hamburger">
+        <div class="open-btn">&#9776;</div>
+        <nav class="menu">
+          <div class="close-btn">&times;</div>
+          <ul class="nav-item">
+            <li><a class="selected" href="index.html">전체</a></li>
+            <li><a class="selected" href="list.html">BEST</a></li>
+            <!-- <li><a class="selected" href="detailpage.html">상품
                             소개</a></li> -->
-                    <li><a class="selected" href="contact.html">알림
-                            신청</a></li>
-                </ul>
-            </nav>
-        </div>
+            <li><a class="selected" href="contact.html">알림 신청</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <main class="middle">
-        <div class="centense">
-          <h1 class="line">알림 신청</h1>
-          <p class="tc">
-            내츄럴플러스의 새로운 소식과 더 좋은 할인 혜택을 받기를 원하시는 분은 페이지 하단의 알림 받기를 신청해주세요!
+    <main class="ring-main">
+      <article class="ring-word">
+        <h1 class="line">알림 신청</h1>
+        <p class="line-p">
+          내츄럴플러스의 새로운 소식과 더 좋은 할인 혜택을 받기를 원하시는 분은
+          페이지 하단의 알림 받기를 신청해주세요!
+        </p>
+      </article>
+      <section class="brand">
+        <article class="brand-img">
+          <img class="b-img-one" src="images/brand1.png" alt="브랜드이념" />
+          <img class="b-img-two" src="images/brand.png" alt="브랜드가치" />
+        </article>
+      </section>
+
+      <section class="ring-mail">
+        <article class="ring-mail-word">
+          <h2 class="hide chide">알림 받기 신청</h2>
+          <p class="conp">
+            아래의 칸을 입력하신 후
+            <span class="send"> 신청하기 </span>를 눌러주세요!
           </p>
-        </div>
-
-        <div class="pc">
-          <div class="about-me">
-            <img class="me conimg" src="images/brand1.png" alt="브랜드이념" />
-            <img class="me conimg" src="images/brand.png" alt="브랜드가치" />
-          </div>
-          <div class="blank-c"></div>
-
-          <div class="two ctwo">
-            <h2 class="hide chide">알림 받기 신청</h2>
-
-            <p class="conp">
-              아래의 칸을 입력하신 후
-              <span class="send"> 신청하기 </span>를 눌러주세요! </p>
-            <form>
-              <label for="first-name">First Name</label>
-              <input class="inputone" type="text" id="first-name" />
-              <label for="Email">Email</label>
-              <input class="inputone" type="email" id="Email" />
-              <label for="Message">Message</label>
-              <input class="inputtwo" type="text" id="Message" />
-              <button>신청하기</button>
-            </form>
-          </div>
-          <div class="blank"></div>
-        </div>
-      </main>
+        </article>
+        <article>
+          <form>
+            <label for="first-name">성함</label>
+            <input
+              class="inputone"
+              type="text"
+              id="first-name"
+              placeholder="성함을 입력하세요"
+            />
+            <label for="Email">Email </label>
+            <input
+              class="inputone"
+              type="email"
+              id="Email"
+              placeholder="이메일 주소를 입력하세요"
+            />
+            <button>신청하기</button>
+          </form>
+        </article>
+        <div class="blank"></div>
+      </section>
+    </main>
 
     <footer>
-        <img class="footer-logo-img" src="images/logo.png" alt="푸터로고" />
-        <p class="footer-p1"> ⓒ 2025 건강한 하루 | 고객센터 1234-5678</p>
-        <p class="footer-p2"> 안전거래를 위해 페이먼트 구매안전(에스크로)에 가입하여 서비스를 제공하고 있습니다.</p>
-        <p class="footer-p3"> Copyright ⓒ 내츄럴플러스 | All rights reserved.</p>
+      <img class="footer-logo-img" src="images/logo.png" alt="푸터로고" />
+      <p class="footer-p1">ⓒ 2025 건강한 하루 | 고객센터 1234-5678</p>
+      <p class="footer-p2">
+        안전거래를 위해 페이먼트 구매안전(에스크로)에 가입하여 서비스를 제공하고
+        있습니다.
+      </p>
+      <p class="footer-p3">Copyright ⓒ 내츄럴플러스 | All rights reserved.</p>
     </footer>
     <script src="scripts.js"></script>
-</body>
+  </body>
 </html>
